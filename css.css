@@ -1,0 +1,38 @@
+.jumbotron {
+    padding-top: 2rem;
+    background-color: #e2edff;
+    text-align: center;
+}
+
+.jumbotron img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+body {
+    min-height: 2000px;
+}
+
+#about {
+    padding: 5rem 0;
+}
+
+#projects {
+    background-color: #e2edff;
+    padding: 5rem 0;
+}
+#contact .card{
+    border: none;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+#contact .card:hover{
+    transform: translateY(-10px);
+}
+
+#contact i{
+    margin-bottom: 10px;
+}
